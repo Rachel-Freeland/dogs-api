@@ -5,15 +5,19 @@
 <!-- back-end server url (when applicable)
 front-end application (when applicable) -->
 ### Setup
-<!-- .env requirements (where applicable)
-i.e.
+* Setup and activate your virtual environment for your machine then,
+* Install django using `pip install django`
+* Create a user with `python manage.py createsuperuser`
+  * Enter a username and a password
+* Use `python manage.py runserver` to start the server
 
-PORT - Port Number
-DATABASE_URL - URL to the running Postgres instance/db -->
 ### How to initialize/run your application (where applicable)
 <!-- e.g. python main.py -->
 ### How to use your library (where applicable)
 ### Tests
-* How do you run tests?
-* Any tests of note?
+* How do you run tests? 
+  * `python manage.py test`
+* Any tests of note? 
+  * No
 * Describe any tests that you did not complete, skipped, etc
+  * NA
